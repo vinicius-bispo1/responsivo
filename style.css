@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: cadetblue;
+}
+
+header {
+  border: solid 2px;
+}
+header ul {
+  display: flex;
+  justify-content: space-between;
+  width: 30vw;
+}
+
+@media (max-width: 800px) {
+  body {
+    background-color: green;
+  }
+}
+@media (min-width: 900px) {
+  body {
+    color: yellow;
+  }
+}
+@media (min-width: 300px) and (max-width: 400px) {
+  li {
+    font-size: 3rem;
+  }
+}
+body header {
+  height: 20vh;
+  display: flex;
+}
+@media (max-width: 800px) {
+  body header {
+    background-color: aquamarine;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+  }
+}
+@media (max-width: 800px) {
+  body header ul {
+    width: 50vw;
+    border: solid 2px red;
+    list-style: none;
+  }
+}
+@media (max-width: 800px) {
+  body header nav {
+    width: 50vw;
+    border: solid 2px red;
+  }
+}
+
+header {
+  background-color: aqua;
+}
+@media (max-width: 800px) {
+  header {
+    width: 50vw;
+    border: solid 2px red;
+  }
+}
+header nav {
+  width: 30vw;
+}
+@media (max-width: 800px) {
+  header nav {
+    width: 50vw;
+    border: solid 2px red;
+  }
+}
+header nav ul {
+  color: black;
+}
+@media (max-width: 800px) {
+  header nav ul {
+    width: 50vw;
+    border: solid 2px red;
+  }
+}
+@media (max-width: 800px) {
+  header nav ul {
+    width: 50vw;
+    border: solid 2px red;
+  }
+}/*# sourceMappingURL=style.css.map */
